@@ -41,7 +41,7 @@ const Intoduction = () => {
   }, [currentIndex, displayedName, isTyping, name]);
 
   useEffect(() => {
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: globalThis.MouseEvent) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
     window.addEventListener("mousemove", handleMouseMove);
@@ -67,12 +67,13 @@ const Intoduction = () => {
       <div className="text-center space-y-6 relative z-10">
         <div className="flex flex-col items-center justify-center gap-y-10">
           <h1 className="text-4xl sm:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-            Hello, I'm <span className="text-primary">{displayedName}</span>
+            Hello, I&apos;m{" "}
+            <span className="text-primary">{displayedName}</span>
             <span className="animate-pulse font-normal">|</span>
           </h1>
 
           <p className="text-lg max-w-2xl mx-auto leading-relaxed text-gray-300">
-            I am React JS, MERN Stack Developer and a Learning Enthusiast .
+            React JS, MERN Stack Developer and a Learning Enthusiast .
           </p>
           <p className="text-lg max-w-2xl mx-auto leading-relaxed text-gray-300">
             Passionate about building modern, scalable web applications with

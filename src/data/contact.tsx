@@ -13,7 +13,7 @@ export const ContactInformation = [
     link: "https://github.com/probhask",
     icon: IoLogoGithub,
     color:
-      "text-gray-800 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white",
+      "text-gray-300 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white",
   },
   {
     name: "Email",

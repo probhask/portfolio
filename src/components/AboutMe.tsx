@@ -10,10 +10,10 @@ const AboutMe = () => {
     >
       <ul className="space-y-2">
         <li>
-          I'm a developer with a strong focus on building modern, responsive,
-          and user-friendly web applications. Skilled in Frontend, React Js and
-          the MERN stack, I enjoy turning ideas into seamless digital
-          experiences.
+          I&apos;m a developer with a strong focus on building modern,
+          responsive, and user-friendly web applications. Skilled in Frontend,
+          React Js and the MERN stack, I enjoy turning ideas into seamless
+          digital experiences.
         </li>
         <li>
           I value clean code, performance optimization, and scalable

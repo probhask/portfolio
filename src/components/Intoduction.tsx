@@ -1,5 +1,5 @@
 "use client";
-import { ContactInformation } from "@/constants/contact";
+import { ContactInformation } from "@/data/contact";
 import React, { useEffect, useState } from "react";
 
 const Intoduction = () => {

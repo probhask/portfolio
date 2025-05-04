@@ -4,7 +4,7 @@ import SectionWrapper from "./SectionWrapper";
 const AboutMe = () => {
   return (
     <SectionWrapper
-      wrapperClassName="space-y-8"
+      wrapperClassName="space-y-8 !mt-0"
       heading="About Me"
       description="Love challenges, love to learn, and love to code."
     >

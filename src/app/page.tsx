@@ -10,7 +10,7 @@ import { ThemeProvider } from "@/context/theme.context";
 export default function Home() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen w-full container mx-auto bg-background">
+      <div className="min-h-screen w-full container mx-auto bg-background px-2">
         <Header />
         <main className="space-y-8">
           <Intoduction />

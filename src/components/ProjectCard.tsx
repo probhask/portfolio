@@ -12,7 +12,7 @@ const ProjectCard: React.FC<Project> = ({
   skills,
 }) => {
   return (
-    <div className="group relative overflow-hidden rounded-xl border border-gray-200 dark:border-gray-800 shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+    <div className="group relative overflow-hidden rounded-xl border border-gray-800 dark:border-gray-800 shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
       {/* Project Image */}
       <div className="relative h-48 overflow-hidden">
         <Image
@@ -27,12 +27,8 @@ const ProjectCard: React.FC<Project> = ({
 
       {/* Project Content */}
       <div className="p-6">
-        <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-          {title}
-        </h3>
-        <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-3">
-          {description}
-        </p>
+        <h3 className="text-xl font-bold  mb-2">{title}</h3>
+        <p className=" mb-4 line-clamp-3">{description}</p>
 
         {/* Skills */}
         <div className="flex flex-wrap gap-2 mb-4">

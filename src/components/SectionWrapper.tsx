@@ -65,7 +65,7 @@ const SectionWrapper: React.FC<SectionWrapperProps> = ({
   return (
     <motion.section
       id={id || heading}
-      className={`w-full space-y-10 my-28 ${wrapperClassName}`}
+      className={`w-full space-y-10 my-28 container mx-auto ${wrapperClassName}`}
       initial="hidden"
       whileInView="visible"
       viewport={{ margin: "-20% 0px -20% 0px" }} // Adjust margin to trigger earlier/later
@@ -75,7 +75,7 @@ const SectionWrapper: React.FC<SectionWrapperProps> = ({
     >
       <div className="space-y-2 flex flex-col items-center justify-center">
         <h2
-          className={`text-center text-4xl font-bold border-b-2 w-fit first-letter:uppercase  ${headingClassName}`}
+          className={`text-center text-4xl font-bold border-b-2 w-fit first-letter:uppercase  bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 ${headingClassName}`}
         >
           {heading}
         </h2>

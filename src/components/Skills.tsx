@@ -17,7 +17,7 @@ const Skills = () => {
                 key={`${skill.title}-${index}`}
                 className="flex flex-col items-center justify-center gap-2 w-24"
               >
-                <div className="w-16 h-16 flex items-center justify-center hover:bg-amber-500">
+                <div className="w-16 h-16 flex items-center justify-center ">
                   <Image
                     src={skill.imageSrc}
                     alt={skill.title}

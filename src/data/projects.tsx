@@ -24,7 +24,8 @@ export const ProjectsData: Project[] = [
   },
   {
     title: "Monley",
-    description: "A ecommerce website for buying and selling products.",
+    description:
+      "A ecommerce website with features like product listings, shopping cart, and checkout.",
     website: "https://monley.netlify.app/",
     github: "https://github.com/probhask/Monley",
     imageSrc:

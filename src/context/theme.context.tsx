@@ -11,11 +11,12 @@ import {
 export const ThemeContext = createContext<ThemeContextType | null>(null);
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
-  const [theme, setTheme] = useState(Theme.Light);
+  const [theme, setTheme] = useState(Theme.Dark);
 
   // Apply theme to HTML element when theme changes
   useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
+    document.documentElement.setAttribute("data-theme", Theme.Dark);
+    // document.body.classList.toggle("");
   }, [theme]);
 
   const toggleTheme = () => {

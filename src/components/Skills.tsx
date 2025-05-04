@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import SectionWrapper from "./SectionWrapper";
-import { SkillsData } from "@/constants/skills";
+import { SkillsData } from "@/data/skills";
 import Image from "next/image";
 
 const Skills = () => {

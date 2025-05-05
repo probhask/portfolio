@@ -4,7 +4,7 @@ import FloatingIcons from "./FloatingIcons";
 // import Header from "./Header";
 
 const Intoduction = () => {
-  const name = "Bhaskar Shrama";
+  const name = "Bhaskar Sharma";
   const [displayedName, setDisplayedName] = useState("");
   const [isTyping, setIsTyping] = useState(true);
   const [currentIndex, setCurrentIndex] = useState(0);
